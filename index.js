@@ -24,7 +24,7 @@ client.on('guildMemberAdd', member => {
 //COMMANDS
 
 client.on('message', msg => {
-    if(msg.content === `${prefix}` + 'apps') {
+    if(msg.content === `${prefix}` + '') {
         const appembed = {
             color: 0x0099ff,
             title: 'Applications',
@@ -45,7 +45,7 @@ client.on('message', msg => {
                     url: "https://forms.gle/vu288Put6iH6uA3GA",
                 },
                 {
-                    name: 'Support Applications',
+                    name: 'Support Applications (CLOSED)',
                     value: 'https://docs.google.com/forms/d/e/1FAIpQLSfraisKIUfa2HokbDfxRwZxqc3Wq6a_uHVFIHEgeO103RvIMA/viewform',
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfraisKIUfa2HokbDfxRwZxqc3Wq6a_uHVFIHEgeO103RvIMA/viewform",
                     inline: false,
@@ -154,10 +154,8 @@ client.on('message', msg => {
                     value: 'dispatch',
                     inline: false,
                 },
-                {
-                    name: 'Applications',
-                    value: 'apps',
-                    inline: false                },
+                {             
+                },
         ],      
             image: {
                 url: 'https://yt3.ggpht.com/a/AATXAJxnJtrv6tfhRIfazxKu8gHmrAppIvpi6mURUujYHQ=s100-c-k-c0xffffffff-no-rj-mo',
