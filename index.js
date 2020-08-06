@@ -24,7 +24,7 @@ client.on('guildMemberAdd', member => {
 //COMMANDS
 
 client.on('message', msg => {
-    if(msg.content === `${prefix}` + '') {
+    if(msg.content === `${prefix}` + 'sc561345') {
         const appembed = {
             color: 0x0099ff,
             title: 'Applications',
