@@ -154,8 +154,7 @@ client.on('message', msg => {
                     value: 'dispatch',
                     inline: false,
                 },
-                {             
-                },
+                
         ],      
             image: {
                 url: 'https://yt3.ggpht.com/a/AATXAJxnJtrv6tfhRIfazxKu8gHmrAppIvpi6mURUujYHQ=s100-c-k-c0xffffffff-no-rj-mo',
