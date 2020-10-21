@@ -5,7 +5,7 @@ const prefix = "^";
 client.login(process.env.token);
 
 client.on('ready', () => {
-    client.user.setActivity("^help || nullbyte");
+    client.user.setActivity("^help | I'M ALIVE");
     console.log("Online");
 });
 
